@@ -186,6 +186,12 @@ border-right: none;
     
 }
 
+.search-icon {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
 .search-input {
 
     background-color: transparent;
@@ -549,7 +555,7 @@ p[data-category="dessert1"] {
 
 .image_section_cut_image  {
     background-size: cover;
-    background-image: url("https://picsum.photos/1200/800");
+    background-image: url("/images/imagesection_pic.png");
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -634,8 +640,7 @@ p[data-category="dessert1"] {
 }
 
 .content_area_block1 {
-    
-    
+
     
     display: block;
     grid-column: 1 / 7;
@@ -643,8 +648,21 @@ p[data-category="dessert1"] {
     height: 380px;
     grid-row: 1;
     /* width: 560px; */
+}
 
+.content_area_block1_image {
 
+    grid-column: 7 / span 6; 
+    grid-row: 1;
+    height: 380px; 
+    overflow: hidden;
+}
+
+.content_area_block1_image img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .content_area_block1_text {
@@ -727,6 +745,22 @@ font-size: 16px;
 
 }
 
+.content_area_block2_image {
+
+    grid-column: 1 / span 6; 
+    grid-row: 2;
+    height: 380px; 
+    overflow: hidden;
+}
+
+.content_area_block2_image img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 .content_area_block2_text {
     
     flex-direction: column;
@@ -744,7 +778,8 @@ font-size: 16px;
     margin-bottom: 10px;
     color: var(--background-color-dark-bg);
  border-left: 3px;
- 
+ border-left: 2px solid var(--primary-color);
+ padding: 5px;
  
     
 }
@@ -804,6 +839,22 @@ font-size: 16px;
 
 }
 
+.content_area_block3_image {
+
+    grid-column: 7 / span 6; 
+    grid-row: 3;
+    height: 380px; 
+    overflow: hidden;
+}
+
+.content_area_block3_image img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 .content_area_block3_text {
     
     flex-direction: column;
@@ -821,7 +872,8 @@ font-size: 16px;
     margin-bottom: 10px;
     color: var(--background-color-dark-bg);
  border-left: 3px;
- 
+ border-left: 2px solid var(--primary-color);
+ padding: 5px;
  
     
 }
