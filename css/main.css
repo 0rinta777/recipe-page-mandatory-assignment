@@ -131,7 +131,7 @@ border-right: none;
 }
 
 .hero{
-    background-image: url("css/images/header_pic.png");
+    background-image: url("images/header_pic.png");
     min-height: 600px;
     height: auto;
     background-size: cover;
@@ -558,7 +558,7 @@ p[data-category="dessert1"] {
 
 .image_section_cut_image  {
     background-size: cover;
-    background-image: url("css/images/imagesection_pic.png");
+    background-image: url("images/imagesection_pic.png");
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
     display: grid;
     grid-template-columns: repeat(12, 1fr);
